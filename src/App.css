@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About Section */
+.about-section {
+  padding: 50px 0;
+}
+
+/* Skills Section */
+.skills-section {
+  padding: 50px 0;
+}
+
+.skills-shape-gray {
+  width: 100px;
+  height: 200px;
+  background-color: gray;
+  float: right;
+}
+
+/* Portfolio and Projects Section */
+.portfolio-section {
+  padding: 50px 0;
+}
+
+
+
+
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+/* Other Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+

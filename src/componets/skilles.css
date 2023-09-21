@@ -1,0 +1,13 @@
+.skills-section{
+    background-color: black;
+    color: white;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.hh{
+    text-align: center;
+}

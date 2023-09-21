@@ -1,0 +1,32 @@
+.skill-meter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+  }
+  .skill-meter h4{
+    background: rgb(75, 72, 72);
+    width: 150px;
+  }
+  .skill-name {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .meter {
+    position: relative;
+    height: 30px;
+    width: 300px; /* Adjust the width as needed */
+    background-color: #ccc;
+   
+  }
+  
+  .meter-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+   
+    background-color: #a8abaf; /* Change this color as needed */
+    transition: width 0.3s ease-in-out;
+  }
